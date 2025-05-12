@@ -1,0 +1,72 @@
+Preset: delay
+Queue: dcbo
+Running bench::GeijerDelayImp...
+Running bench::FenwickDelayImp...
+------------------ ../semantic-relaxation/data/benchData/dcbo-w8-i32-n72-d200 gets: 1000000 ------------------
+Name                        Mean    Max         Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::GeijerDelayImp       [92m9.62    [92m994438      [0m37.69ms (1.00)      30.55ms (1.00)        7.14ms (1.00)       
+bench::FenwickDelayImp      [92m9.62    [92m994438      [0m373.17ms (0.10)     41.10ms (0.74)        332.06ms (0.02)     
+--------------------------------------------------------------------------------------------------------------
+Preset: delay
+Queue: dcbo
+Running bench::GeijerDelayImp...
+Running bench::FenwickDelayImp...
+------------------ ../semantic-relaxation/data/benchData/dcbo-w32-i128-n72-d200 gets: 1000000 ------------------
+Name                        Mean      Max         Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::GeijerDelayImp       [92m27.46     [92m999948      [0m78.99ms (1.00)      71.66ms (1.00)        7.33ms (1.00)       
+bench::FenwickDelayImp      [92m27.46     [92m999948      [0m381.13ms (0.21)     41.09ms (1.74)        340.03ms (0.02)     
+----------------------------------------------------------------------------------------------------------------
+Preset: delay
+Queue: dcbo
+Running bench::GeijerDelayImp...
+Running bench::FenwickDelayImp...
+----------------- ../semantic-relaxation/data/benchData/dcbo-w128-i512-n72-d200 gets: 1000000 -----------------
+Name                        Mean      Max         Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::GeijerDelayImp       [92m58.68     [92m999300      [0m150.87ms (1.00)     143.53ms (1.00)       7.35ms (1.00)       
+bench::FenwickDelayImp      [92m58.68     [92m999300      [0m382.96ms (0.39)     40.35ms (3.56)        342.61ms (0.02)     
+----------------------------------------------------------------------------------------------------------------
+Preset: delay
+Queue: dcbo
+Running bench::GeijerDelayImp...
+Running bench::FenwickDelayImp...
+------------------ ../semantic-relaxation/data/benchData/dcbo-w512-i2048-n72-d200 gets: 1000000 ------------------
+Name                        Mean        Max         Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::GeijerDelayImp       [92m365.65      [92m998641      [0m1.04s (1.00)        1.04s (1.00)          7.45ms (1.00)       
+bench::FenwickDelayImp      [92m365.65      [92m998641      [0m374.15ms (2.79)     41.03ms (25.24)       333.12ms (0.02)     
+------------------------------------------------------------------------------------------------------------------
+Preset: delay
+Queue: dcbo
+Running bench::GeijerDelayImp...
+Running bench::FenwickDelayImp...
+----------------- ../semantic-relaxation/data/benchData/dcbo-w2048-i8192-n72-d200 gets: 1000000 -----------------
+Name                        Mean          Max         Total (speedup)     Calc (speedup)      Prep (speedup)      
+bench::GeijerDelayImp       [92m1446.30       [92m994267      [0m5.95s (1.00)        5.95s (1.00)        7.78ms (1.00)       
+bench::FenwickDelayImp      [92m1446.30       [92m994267      [0m416.29ms (14.30)    49.71ms (119.62)    366.58ms (0.02)     
+------------------------------------------------------------------------------------------------------------------
+Preset: delay
+Queue: dcbo
+Running bench::GeijerDelayImp...
+Running bench::FenwickDelayImp...
+----------------- ../semantic-relaxation/data/benchData/dcbo-w8192-i32768-n72-d200 gets: 1000000 -----------------
+Name                        Mean          Max         Total (speedup)     Calc (speedup)      Prep (speedup)      
+bench::GeijerDelayImp       [92m5629.34       [92m992160      [0m31.18s (1.00)       31.17s (1.00)       8.33ms (1.00)       
+bench::FenwickDelayImp      [92m5629.34       [92m992160      [0m364.50ms (85.54)    60.52ms (515.05)    303.98ms (0.03)     
+------------------------------------------------------------------------------------------------------------------
+Preset: delay
+Queue: dcbo
+Running bench::GeijerDelayImp...
+Running bench::FenwickDelayImp...
+----------------- ../semantic-relaxation/data/benchData/dcbo-w32768-i131072-n72-d200 gets: 1000000 -----------------
+Name                        Mean        Max         Total (speedup)       Calc (speedup)        Prep (speedup)      
+bench::GeijerDelayImp       [92m20420.27    [92m957127      [0m2m9s (1.00)           2m9s (1.00)           15.12ms (1.00)      
+bench::FenwickDelayImp      [92m20420.27    [92m957127      [0m435.00ms (297.62)     57.64ms (2245.74)     377.36ms (0.04)     
+--------------------------------------------------------------------------------------------------------------------
+Preset: delay
+Queue: dcbo
+Running bench::GeijerDelayImp...
+Running bench::FenwickDelayImp...
+----------------- ../semantic-relaxation/data/benchData/dcbo-w65536-i262144-n72-d200 gets: 1000000 -----------------
+Name                        Mean        Max         Total (speedup)       Calc (speedup)        Prep (speedup)      
+bench::GeijerDelayImp       [92m36079.85    [92m827670      [0m4m5s (1.00)           4m5s (1.00)           10.14ms (1.00)      
+bench::FenwickDelayImp      [92m36079.85    [92m827670      [0m511.03ms (479.67)     62.27ms (3936.55)     448.76ms (0.02)     
+--------------------------------------------------------------------------------------------------------------------

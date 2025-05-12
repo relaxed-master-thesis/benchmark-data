@@ -1,0 +1,203 @@
+Preset: approx
+Queue: 2ddq
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 9888
+All pushed items size: 1001477
+Counted elems: 9888
+Pushed items size: 9888
+All pushed items size: 1001477
+Counted elems: 9888
+Pushed items size: 9888
+All pushed items size: 1001477
+Counted elems: 9888
+Pushed items size: 9888
+All pushed items size: 1001477
+Counted elems: 9888
+Running bench::MinMax2DDAImp...
+-------------- ../semantic-relaxation/data/benchData/2ddqopt-w8-l4-i64-n72-d400 gets: 1000000 --------------
+Name                        Mean    Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m4.24    [92m277       [0m340.63ms (1.00)     39.58ms (1.00)        301.06ms (1.00)     
+bench::FenwickAImp          [93m3.94    [91m35        [0m60.59ms (5.62)      5.24ms (7.55)         55.34ms (5.44)      
+bench::ReplayTreeAImp       [93m3.94    [91m35        [0m68.38ms (4.98)      23.80ms (1.66)        44.58ms (6.75)      
+bench::MonteReplayTree      [93m4.12    [91m80        [0m289.44ms (1.18)     16.24ms (2.44)        273.20ms (1.10)     
+bench::MonteFenwickImp      [93m3.92    [91m60        [0m264.89ms (1.29)     232us (170.58)        264.66ms (1.14)     
+bench::MinMax2DDAImp        [93m4.53    [91m17        [0m4us (85158.75)      1us (39575.00)        3us (100353.34)     
+------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: 2ddq
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 10069
+All pushed items size: 1001294
+Counted elems: 10069
+Pushed items size: 10069
+All pushed items size: 1001294
+Counted elems: 10069
+Pushed items size: 10069
+All pushed items size: 1001294
+Counted elems: 10069
+Pushed items size: 10069
+All pushed items size: 1001294
+Counted elems: 10069
+Running bench::MinMax2DDAImp...
+-------------- ../semantic-relaxation/data/benchData/2ddqopt-w16-l8-i256-n72-d400 gets: 1000000 --------------
+Name                        Mean      Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m14.17     [92m396       [0m343.98ms (1.00)     39.80ms (1.00)        304.18ms (1.00)     
+bench::FenwickAImp          [91m10.85     [91m110       [0m60.83ms (5.65)      5.26ms (7.57)         55.57ms (5.47)      
+bench::ReplayTreeAImp       [91m10.85     [91m110       [0m66.42ms (5.18)      21.57ms (1.85)        44.85ms (6.78)      
+bench::MonteReplayTree      [93m13.80     [91m190       [0m290.22ms (1.19)     15.21ms (2.62)        275.01ms (1.11)     
+bench::MonteFenwickImp      [91m10.91     [91m150       [0m267.23ms (1.29)     257us (154.88)        266.97ms (1.14)     
+bench::MinMax2DDAImp        [91m29.05     [91m104       [0m19us (18104.16)     1us (39803.00)        18us (16898.67)     
+--------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: 2ddq
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 9976
+All pushed items size: 1000633
+Counted elems: 9976
+Pushed items size: 9976
+All pushed items size: 1000633
+Counted elems: 9976
+Pushed items size: 9976
+All pushed items size: 1000633
+Counted elems: 9976
+Pushed items size: 9976
+All pushed items size: 1000633
+Counted elems: 9976
+Running bench::MinMax2DDAImp...
+-------------- ../semantic-relaxation/data/benchData/2ddqopt-w32-l16-i1024-n72-d400 gets: 1000000 --------------
+Name                        Mean        Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m43.33       [92m423       [0m346.38ms (1.00)     40.33ms (1.00)        306.05ms (1.00)     
+bench::FenwickAImp          [91m55.74       [92m423       [0m61.29ms (5.65)      5.29ms (7.63)         56.00ms (5.47)      
+bench::ReplayTreeAImp       [91m55.74       [92m423       [0m79.77ms (4.34)      31.34ms (1.29)        48.43ms (6.32)      
+bench::MonteReplayTree      [93m42.05       [93m430       [0m296.06ms (1.17)     16.05ms (2.51)        280.00ms (1.09)     
+bench::MonteFenwickImp      [91m55.81       [92m420       [0m267.58ms (1.29)     267us (151.06)        267.31ms (1.14)     
+bench::MinMax2DDAImp        [91m105.62      [91m331       [0m85us (4075.04)      16us (2520.75)        69us (4435.45)      
+----------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: 2ddq
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 9977
+All pushed items size: 1005054
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1005054
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1005054
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1005054
+Counted elems: 9977
+Running bench::MinMax2DDAImp...
+------------- ../semantic-relaxation/data/benchData/2ddqopt-w64-l32-i4096-n72-d400 gets: 1000000 -------------
+Name                        Mean        Max     Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m267.50      [92m1997    [0m340.92ms (1.00)     40.00ms (1.00)        300.92ms (1.00)     
+bench::FenwickAImp          [93m278.92      [93m1845    [0m58.30ms (5.85)      5.33ms (7.50)         52.97ms (5.68)      
+bench::ReplayTreeAImp       [93m278.92      [93m1845    [0m86.91ms (3.92)      38.33ms (1.04)        48.58ms (6.19)      
+bench::MonteReplayTree      [93m262.61      [93m1910    [0m297.93ms (1.14)     25.80ms (1.55)        272.13ms (1.11)     
+bench::MonteFenwickImp      [93m277.13      [93m1890    [0m267.11ms (1.28)     272us (147.05)        266.84ms (1.13)     
+bench::MinMax2DDAImp        [91m497.49      [93m1845    [0m344us (991.04)      81us (493.80)         263us (1144.18)     
+--------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: 2ddq
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 9977
+All pushed items size: 1015788
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1015788
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1015788
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1015788
+Counted elems: 9977
+Running bench::MinMax2DDAImp...
+------------- ../semantic-relaxation/data/benchData/2ddqopt-w128-l64-i16384-n72-d400 gets: 1000000 -------------
+Name                        Mean          Max     Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m1597.53       [92m7887    [0m358.73ms (1.00)     41.17ms (1.00)        317.55ms (1.00)     
+bench::FenwickAImp          [93m1748.63       [92m7887    [0m59.95ms (5.98)      5.70ms (7.22)         54.25ms (5.85)      
+bench::ReplayTreeAImp       [93m1748.63       [92m7887    [0m97.97ms (3.66)      45.71ms (0.90)        52.26ms (6.08)      
+bench::MonteReplayTree      [93m1567.50       [93m8270    [0m311.75ms (1.15)     32.27ms (1.28)        279.49ms (1.14)     
+bench::MonteFenwickImp      [93m1683.66       [92m7940    [0m271.47ms (1.32)     274us (150.27)        271.19ms (1.17)     
+bench::MinMax2DDAImp        [91m2256.99       [92m7887    [0m1.48ms (242.06)     226us (182.19)        1.26ms (252.83)     
+----------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: 2ddq
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 9977
+All pushed items size: 1065164
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1065164
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1065164
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1065164
+Counted elems: 9977
+Running bench::MinMax2DDAImp...
+------------- ../semantic-relaxation/data/benchData/2ddqopt-w256-l128-i65536-n72-d400 gets: 1000000 -------------
+Name                        Mean          Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m7644.18       [92m32485     [0m377.94ms (1.00)     48.50ms (1.00)        329.44ms (1.00)     
+bench::FenwickAImp          [93m8250.50       [92m32485     [0m61.16ms (6.18)      5.93ms (8.18)         55.23ms (5.96)      
+bench::ReplayTreeAImp       [93m8250.50       [92m32485     [0m106.96ms (3.53)     50.21ms (0.97)        56.75ms (5.81)      
+bench::MonteReplayTree      [92m7575.16       [93m31930     [0m312.30ms (1.21)     40.12ms (1.21)        272.17ms (1.21)     
+bench::MonteFenwickImp      [93m8041.24       [93m31610     [0m264.87ms (1.43)     283us (171.36)        264.58ms (1.25)     
+bench::MinMax2DDAImp        [91m8425.00       [93m31125     [0m7.23ms (52.30)      980us (49.49)         6.25ms (52.74)      
+------------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: 2ddq
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 9977
+All pushed items size: 1261414
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1261414
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1261414
+Counted elems: 9977
+Pushed items size: 9977
+All pushed items size: 1261414
+Counted elems: 9977
+Running bench::MinMax2DDAImp...
+------------- ../semantic-relaxation/data/benchData/2ddqopt-w512-l256-i262144-n72-d400 gets: 1000000 -------------
+Name                        Mean        Max         Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m33048.48    [92m130290      [0m422.75ms (1.00)     56.01ms (1.00)        366.74ms (1.00)     
+bench::FenwickAImp          [91m45034.51    [93m126598      [0m71.79ms (5.89)      6.32ms (8.86)         65.46ms (5.60)      
+bench::ReplayTreeAImp       [91m45034.51    [93m126598      [0m108.56ms (3.89)     49.74ms (1.13)        58.82ms (6.23)      
+bench::MonteReplayTree      [92m33235.38    [93m128630      [0m336.40ms (1.26)     48.98ms (1.14)        287.42ms (1.28)     
+bench::MonteFenwickImp      [91m26298.89    [91m95510       [0m299.08ms (1.41)     289us (193.80)        298.79ms (1.23)     
+bench::MinMax2DDAImp        [93m36150.31    [93m126598      [0m33.43ms (12.64)     4.36ms (12.85)        29.07ms (12.61)     
+------------------------------------------------------------------------------------------------------------------
