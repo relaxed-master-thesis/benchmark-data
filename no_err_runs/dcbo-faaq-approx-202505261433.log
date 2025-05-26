@@ -1,0 +1,184 @@
+Preset: approx
+Queue: dcbo
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 100057
+Counted elems: 100057
+Pushed items size: 100057
+Counted elems: 100057
+Pushed items size: 100057
+Counted elems: 100057
+Pushed items size: 100057
+Counted elems: 100057
+------------------ ../semantic-relaxation/data/benchData/dcbo-w8-i32-n64-d1 gets: 1000000 ------------------
+Name                        Mean    Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m9.84    [92m142       [0m339.50ms (1.00)     40.24ms (1.00)        299.26ms (1.00)     
+bench::FenwickAImp          [91m8.12    [91m76        [0m60.16ms (5.64)      5.27ms (7.64)         54.89ms (5.45)      
+bench::ReplayTreeAImp       [91m8.12    [91m76        [0m64.50ms (5.26)      17.35ms (2.32)        47.16ms (6.35)      
+bench::MonteReplayTree      [93m9.08    [93m140       [0m321.55ms (1.06)     14.91ms (2.70)        306.63ms (0.98)     
+bench::MonteFenwickImp      [93m9.08    [93m140       [0m379.66ms (0.89)     2.92ms (13.79)        376.74ms (0.79)     
+------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: dcbo
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 100177
+Counted elems: 100175
+Pushed items size: 100177
+Counted elems: 100175
+Pushed items size: 100177
+Counted elems: 100175
+Pushed items size: 100177
+Counted elems: 100175
+------------------ ../semantic-relaxation/data/benchData/dcbo-w32-i128-n64-d1 gets: 1000000 ------------------
+Name                        Mean      Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m27.82     [92m371       [0m324.66ms (1.00)     40.94ms (1.00)        283.72ms (1.00)     
+bench::FenwickAImp          [93m27.42     [91m289       [0m56.09ms (5.79)      5.28ms (7.75)         50.80ms (5.58)      
+bench::ReplayTreeAImp       [93m27.42     [91m289       [0m72.38ms (4.49)      26.39ms (1.55)        45.99ms (6.17)      
+bench::MonteReplayTree      [92m27.81     [93m350       [0m308.12ms (1.05)     17.86ms (2.29)        290.25ms (0.98)     
+bench::MonteFenwickImp      [92m27.81     [93m350       [0m376.12ms (0.86)     2.98ms (13.71)        373.13ms (0.76)     
+--------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: dcbo
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 100109
+Counted elems: 100108
+Pushed items size: 100109
+Counted elems: 100108
+Pushed items size: 100109
+Counted elems: 100108
+Pushed items size: 100109
+Counted elems: 100108
+---------------- ../semantic-relaxation/data/benchData/dcbo-w128-i512-n64-d1 gets: 1000000 ----------------
+Name                        Mean      Max     Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m92.34     [92m1051    [0m320.98ms (1.00)     40.19ms (1.00)        280.80ms (1.00)     
+bench::FenwickAImp          [93m96.70     [93m1038    [0m55.76ms (5.76)      5.33ms (7.54)         50.42ms (5.57)      
+bench::ReplayTreeAImp       [93m96.70     [93m1038    [0m76.72ms (4.18)      29.79ms (1.35)        46.93ms (5.98)      
+bench::MonteReplayTree      [93m94.02     [93m960     [0m312.02ms (1.03)     19.38ms (2.07)        292.64ms (0.96)     
+bench::MonteFenwickImp      [93m94.02     [93m960     [0m366.72ms (0.88)     3.00ms (13.40)        363.72ms (0.77)     
+------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: dcbo
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 100212
+Counted elems: 100211
+Pushed items size: 100212
+Counted elems: 100211
+Pushed items size: 100212
+Counted elems: 100211
+Pushed items size: 100212
+Counted elems: 100211
+----------------- ../semantic-relaxation/data/benchData/dcbo-w512-i2048-n64-d1 gets: 1000000 -----------------
+Name                        Mean        Max     Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m370.08      [92m3152    [0m332.70ms (1.00)     40.79ms (1.00)        291.91ms (1.00)     
+bench::FenwickAImp          [93m364.93      [91m2167    [0m57.78ms (5.76)      5.36ms (7.60)         52.42ms (5.57)      
+bench::ReplayTreeAImp       [93m364.93      [91m2167    [0m84.82ms (3.92)      33.89ms (1.20)        50.93ms (5.73)      
+bench::MonteReplayTree      [93m392.90      [92m3160    [0m331.58ms (1.00)     24.99ms (1.63)        306.59ms (0.95)     
+bench::MonteFenwickImp      [93m392.90      [92m3160    [0m382.71ms (0.87)     3.04ms (13.40)        379.67ms (0.77)     
+--------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: dcbo
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 100882
+Counted elems: 100837
+Pushed items size: 100882
+Counted elems: 100837
+Pushed items size: 100882
+Counted elems: 100837
+Pushed items size: 100882
+Counted elems: 100837
+------------------ ../semantic-relaxation/data/benchData/dcbo-w2048-i8192-n64-d1 gets: 1000000 ------------------
+Name                        Mean          Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m1470.07       [92m9508      [0m340.59ms (1.00)     42.35ms (1.00)        298.23ms (1.00)     
+bench::FenwickAImp          [92m1476.26       [93m9154      [0m60.16ms (5.66)      5.58ms (7.60)         54.59ms (5.46)      
+bench::ReplayTreeAImp       [92m1476.26       [93m9154      [0m100.16ms (3.40)     45.53ms (0.93)        54.63ms (5.46)      
+bench::MonteReplayTree      [93m1521.27       [91m10560     [0m346.35ms (0.98)     30.68ms (1.38)        315.67ms (0.94)     
+bench::MonteFenwickImp      [93m1521.27       [91m10560     [0m398.02ms (0.86)     3.10ms (13.64)        394.91ms (0.76)     
+------------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: dcbo
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 103155
+Counted elems: 102624
+Pushed items size: 103155
+Counted elems: 102624
+Pushed items size: 103155
+Counted elems: 102624
+Pushed items size: 103155
+Counted elems: 102624
+------------------ ../semantic-relaxation/data/benchData/dcbo-w8192-i32768-n64-d1 gets: 1000000 ------------------
+Name                        Mean          Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m5814.77       [92m32806     [0m377.92ms (1.00)     50.73ms (1.00)        327.19ms (1.00)     
+bench::FenwickAImp          [93m5705.07       [92m32806     [0m63.58ms (5.94)      6.10ms (8.32)         57.48ms (5.69)      
+bench::ReplayTreeAImp       [93m5705.07       [92m32806     [0m117.39ms (3.22)     55.55ms (0.91)        61.85ms (5.29)      
+bench::MonteReplayTree      [93m6034.42       [93m34900     [0m388.95ms (0.97)     39.37ms (1.29)        349.58ms (0.94)     
+bench::MonteFenwickImp      [93m6034.42       [93m34900     [0m444.52ms (0.85)     3.24ms (15.67)        441.29ms (0.74)     
+------------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: dcbo
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 113154
+Counted elems: 105388
+Pushed items size: 113154
+Counted elems: 105388
+Pushed items size: 113154
+Counted elems: 105388
+Pushed items size: 113154
+Counted elems: 105388
+----------------- ../semantic-relaxation/data/benchData/dcbo-w32768-i131072-n64-d1 gets: 1000000 -----------------
+Name                        Mean        Max         Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m23078.46    [92m131444      [0m434.40ms (1.00)     59.31ms (1.00)        375.09ms (1.00)     
+bench::FenwickAImp          [93m21252.10    [92m130793      [0m69.88ms (6.22)      7.12ms (8.33)         62.76ms (5.98)      
+bench::ReplayTreeAImp       [93m21252.10    [92m130793      [0m129.07ms (3.37)     55.10ms (1.08)        73.97ms (5.07)      
+bench::MonteReplayTree      [93m24189.81    [93m138370      [0m366.49ms (1.19)     51.48ms (1.15)        315.01ms (1.19)     
+bench::MonteFenwickImp      [93m24189.81    [93m138370      [0m429.83ms (1.01)     3.51ms (16.91)        426.32ms (0.88)     
+------------------------------------------------------------------------------------------------------------------
+Preset: approx
+Queue: dcbo
+Running bench::FenwickImp...
+Running bench::FenwickAImp...
+Running bench::ReplayTreeAImp...
+Running bench::MonteReplayTree...
+Running bench::MonteFenwickImp...
+Pushed items size: 126193
+Counted elems: 105076
+Pushed items size: 126193
+Counted elems: 105076
+Pushed items size: 126193
+Counted elems: 105076
+Pushed items size: 126193
+Counted elems: 105076
+----------------- ../semantic-relaxation/data/benchData/dcbo-w65536-i262144-n64-d1 gets: 1000000 -----------------
+Name                        Mean        Max         Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp           [92m45600.89    [92m262246      [0m557.57ms (1.00)     70.51ms (1.00)        487.06ms (1.00)     
+bench::FenwickAImp          [93m41312.75    [92m262000      [0m84.42ms (6.60)      7.58ms (9.30)         76.84ms (6.34)      
+bench::ReplayTreeAImp       [93m41312.75    [92m262000      [0m156.27ms (3.57)     59.22ms (1.19)        97.05ms (5.02)      
+bench::MonteReplayTree      [93m47933.89    [93m277680      [0m432.66ms (1.29)     53.95ms (1.31)        378.71ms (1.29)     
+bench::MonteFenwickImp      [93m47933.89    [93m277680      [0m501.55ms (1.11)     3.84ms (18.37)        497.71ms (0.98)     
+------------------------------------------------------------------------------------------------------------------
