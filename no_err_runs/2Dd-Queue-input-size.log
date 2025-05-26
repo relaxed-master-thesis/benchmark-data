@@ -1,15 +1,5 @@
 Preset: size
 Queue: 2ddq
-Running size benchmark with 100 gets
-Running bench::FenwickImp...
-Running bench::ReplayTreeImp...
--------------------------- /home/victorvi/2ddq-w256-l128-i65536-n64-d1 gets: 100 --------------------------
-Name                    Mean        Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
-bench::FenwickImp       [92m10497.48    [92m28548     [0m3.49ms (1.00)       53us (1.00)           3.44ms (1.00)       
-bench::ReplayTreeImp    [92m10497.48    [92m28548     [0m3.30ms (1.06)       178us (0.30)          3.12ms (1.10)       
-------------------------------------------------------------------------------------------------------------
-Preset: size
-Queue: 2ddq
 Running size benchmark with 1000 gets
 Running bench::FenwickImp...
 Running bench::ReplayTreeImp...
