@@ -1,0 +1,70 @@
+Preset: size
+Queue: 2ddq
+Running size benchmark with 1000000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+-------------- ../semantic-relaxation/data/benchData/2ddq-w16-l8-i64-n64-d256 gets: 1000000 --------------
+Name                    Mean      Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m13.96     [92m114       [0m363.63ms (1.00)     40.21ms (1.00)        323.42ms (1.00)     
+bench::ReplayTreeImp    [92m13.96     [92m114       [0m759.38ms (0.48)     258.77ms (0.16)       500.61ms (0.65)     
+----------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 1000000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+------------- ../semantic-relaxation/data/benchData/2ddq-w16-l8-i256-n64-d256 gets: 1000000 -------------
+Name                    Mean      Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m14.21     [92m115       [0m342.35ms (1.00)     39.90ms (1.00)        302.45ms (1.00)     
+bench::ReplayTreeImp    [92m14.21     [92m115       [0m758.46ms (0.45)     272.48ms (0.15)       485.98ms (0.62)     
+----------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 1000000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+------------- ../semantic-relaxation/data/benchData/2ddq-w16-l8-i1024-n64-d256 gets: 1000000 -------------
+Name                    Mean      Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m13.95     [92m120       [0m348.03ms (1.00)     39.90ms (1.00)        308.13ms (1.00)     
+bench::ReplayTreeImp    [92m13.95     [92m120       [0m721.85ms (0.48)     240.91ms (0.17)       480.94ms (0.64)     
+----------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 1000000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+------------ ../semantic-relaxation/data/benchData/2ddq-w16-l8-i4096-n64-d256 gets: 1000000 ------------
+Name                    Mean      Max     Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m14.62     [92m1432    [0m347.06ms (1.00)     39.94ms (1.00)        307.12ms (1.00)     
+bench::ReplayTreeImp    [92m14.62     [92m1432    [0m837.91ms (0.41)     364.59ms (0.11)       473.32ms (0.65)     
+--------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 1000000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+------------ ../semantic-relaxation/data/benchData/2ddq-w16-l8-i16384-n64-d256 gets: 1000000 ------------
+Name                    Mean      Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m14.93     [92m120       [0m368.41ms (1.00)     39.99ms (1.00)        328.42ms (1.00)     
+bench::ReplayTreeImp    [92m14.93     [92m120       [0m931.94ms (0.40)     429.30ms (0.09)       502.64ms (0.65)     
+----------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 1000000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+------------ ../semantic-relaxation/data/benchData/2ddq-w16-l8-i65536-n64-d256 gets: 1000000 ------------
+Name                    Mean      Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m14.96     [92m120       [0m364.92ms (1.00)     42.93ms (1.00)        322.00ms (1.00)     
+bench::ReplayTreeImp    [92m14.96     [92m120       [0m949.44ms (0.38)     444.66ms (0.10)       504.78ms (0.64)     
+----------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 1000000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+----------- ../semantic-relaxation/data/benchData/2ddq-w16-l8-i262144-n64-d256 gets: 1000000 -----------
+Name                    Mean      Max     Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m15.78     [92m7469    [0m423.43ms (1.00)     43.65ms (1.00)        379.78ms (1.00)     
+bench::ReplayTreeImp    [92m15.78     [92m7469    [0m976.88ms (0.43)     465.93ms (0.09)       510.95ms (0.74)     
+--------------------------------------------------------------------------------------------------------
