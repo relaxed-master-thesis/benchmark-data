@@ -1,0 +1,70 @@
+Preset: size
+Queue: 2ddq
+Running size benchmark with 100 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+-------------------------- /home/victorvi/2ddq-w256-l128-i65536-n64-d1 gets: 100 --------------------------
+Name                    Mean        Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m10497.48    [92m28548     [0m3.49ms (1.00)       53us (1.00)           3.44ms (1.00)       
+bench::ReplayTreeImp    [92m10497.48    [92m28548     [0m3.30ms (1.06)       178us (0.30)          3.12ms (1.10)       
+------------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 1000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+-------------------------- /home/victorvi/2ddq-w256-l128-i65536-n64-d1 gets: 1000 --------------------------
+Name                    Mean        Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m18806.71    [92m32292     [0m3.63ms (1.00)       82us (1.00)           3.55ms (1.00)       
+bench::ReplayTreeImp    [92m18806.71    [92m32292     [0m3.67ms (0.99)       458us (0.18)          3.21ms (1.10)       
+------------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 10000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+------------------------- /home/victorvi/2ddq-w256-l128-i65536-n64-d1 gets: 10000 -------------------------
+Name                    Mean        Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m15396.38    [92m32292     [0m5.89ms (1.00)       351us (1.00)          5.54ms (1.00)       
+bench::ReplayTreeImp    [92m15396.38    [92m32292     [0m9.80ms (0.60)       3.92ms (0.09)         5.88ms (0.94)       
+------------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 100000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+-------------------------- /home/victorvi/2ddq-w256-l128-i65536-n64-d1 gets: 100000 --------------------------
+Name                    Mean          Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m8121.43       [92m32292     [0m25.59ms (1.00)      3.25ms (1.00)         22.33ms (1.00)      
+bench::ReplayTreeImp    [92m8121.43       [92m32292     [0m85.92ms (0.30)      47.74ms (0.07)        38.19ms (0.58)      
+--------------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 1000000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+------------------------- /home/victorvi/2ddq-w256-l128-i65536-n64-d1 gets: 1000000 -------------------------
+Name                    Mean          Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m7727.75       [92m32292     [0m344.34ms (1.00)     41.86ms (1.00)        302.48ms (1.00)     
+bench::ReplayTreeImp    [92m7727.75       [92m32292     [0m1.05s (0.33)        528.80ms (0.08)       521.46ms (0.58)     
+--------------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 10000000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+------------------------- /home/victorvi/2ddq-w256-l128-i65536-n64-d1 gets: 10000000 -------------------------
+Name                    Mean          Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m7560.17       [92m32292     [0m4.40s (1.00)        626.28ms (1.00)       3.77s (1.00)        
+bench::ReplayTreeImp    [92m7560.17       [92m32292     [0m10.81s (0.41)       5.31s (0.12)          5.50s (0.69)        
+--------------------------------------------------------------------------------------------------------------
+Preset: size
+Queue: 2ddq
+Running size benchmark with 100000000 gets
+Running bench::FenwickImp...
+Running bench::ReplayTreeImp...
+------------------------ /home/victorvi/2ddq-w256-l128-i65536-n64-d1 gets: 100000000 ------------------------
+Name                    Mean          Max       Total (speedup)     Calc (speedup)        Prep (speedup)      
+bench::FenwickImp       [92m7401.27       [92m32292     [0m47.96s (1.00)       8.25s (1.00)          39.71s (1.00)       
+bench::ReplayTreeImp    [92m7401.27       [92m32292     [0m1m52s (0.43)        53.75s (0.15)         58.35s (0.68)       
+--------------------------------------------------------------------------------------------------------------
